@@ -4,7 +4,6 @@ import {
     View 
 } from "react-native";
 import React from "react"
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 
 export default function FlatCards(){
     return(
@@ -32,7 +31,7 @@ const styles = StyleSheet.create({
     headingText: {
         fontSize: 24,
         fontWeight: 'bold',
-        paddingHorizontal: 10
+        paddingHorizontal: 15
     },
     container: {
         flex: 1,
