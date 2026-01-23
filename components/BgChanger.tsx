@@ -19,9 +19,8 @@ export default function BgChanger() {
     <StatusBar backgroundColor={randomBackground}/>
     <View style={[styles.container, {backgroundColor: randomBackground}]}>
         <TouchableOpacity onPress={generateColor}>
-            <View style={styles.actionBtn}></View>
-            <View>
-                <Text style={styles.actionBtnTxt}> Press me</Text>
+            <View style={styles.actionBtn}>
+            <Text style={styles.actionBtnTxt}> Press me</Text>
             </View>
         </TouchableOpacity>
     </View>
@@ -37,14 +36,14 @@ const styles = StyleSheet.create({
         height:100
     },
     actionBtn:{
-        height:29,
+        height:30,
         borderRadius:8,
         backgroundColor: "#641B4D",
         paddingVertical: 10,
         paddingHorizontal: 40
     },
     actionBtnTxt:{
-        fontSize: 24,
+        fontSize: 8,
         color: "#FFFFFF",
         textTransform: "uppercase"
     }
