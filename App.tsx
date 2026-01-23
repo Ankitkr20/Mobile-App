@@ -13,6 +13,7 @@ import FancyCard from "./components/FancyCard";
 import ActionCard from "./components/ActionCard";
 import ContactList from "./components/ContactList";
 import PasswordChanger from "./components/PasswordChanger";
+import BgChanger from "./components/BgChanger";
 
 function App() {
   const isDarkMode = useColorScheme() === "dark";
@@ -28,6 +29,7 @@ function App() {
         <ActionCard/>
         <ContactList/>
         <PasswordChanger/>
+        <BgChanger/>
         </ScrollView>
       </SafeAreaView>
     </SafeAreaProvider>
