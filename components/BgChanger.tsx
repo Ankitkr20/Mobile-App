@@ -18,6 +18,7 @@ export default function BgChanger() {
     <>
     <StatusBar backgroundColor={randomBackground}/>
     <View style={[styles.container, {backgroundColor: randomBackground}]}>
+        <Text style={styles.title}>Background Changer</Text>
         <TouchableOpacity onPress={generateColor}>
             <View style={styles.actionBtn}>
             <Text style={styles.actionBtnTxt}> Press me</Text>
@@ -29,6 +30,12 @@ export default function BgChanger() {
 }
 
 const styles = StyleSheet.create({
+    title: {
+        fontSize: 30,
+        fontWeight: '700',
+        textAlign: 'center',
+        marginBottom: 20,
+      },
     container:{
         flex: 1,
         alignItems: 'center',
