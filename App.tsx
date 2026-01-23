@@ -12,9 +12,11 @@ import ElevatedCards from "./components/ElevatedCards";
 import FancyCard from "./components/FancyCard";
 import ActionCard from "./components/ActionCard";
 import ContactList from "./components/ContactList";
+import PasswordChanger from "./components/PasswordChanger";
 
 function App() {
   const isDarkMode = useColorScheme() === "dark";
+  
 
   return (
     <SafeAreaProvider>
@@ -25,6 +27,7 @@ function App() {
         <FancyCard/>
         <ActionCard/>
         <ContactList/>
+        <PasswordChanger/>
         </ScrollView>
       </SafeAreaView>
     </SafeAreaProvider>
