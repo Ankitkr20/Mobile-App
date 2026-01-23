@@ -14,6 +14,8 @@ import ActionCard from "../components/ActionCard";
 import ContactList from "../components/ContactList";
 import PasswordChanger from "../components/PasswordChanger";
 import BgChanger from "../components/BgChanger";
+import RollTheDice from "../components/RollTheDice";
+import CurrencyConverter from "../components/CurrencyConverter";
 
 function App() {
   const isDarkMode = useColorScheme() === "dark";
@@ -30,6 +32,8 @@ function App() {
         <ContactList/>
         <PasswordChanger/>
         <BgChanger/>
+        <RollTheDice/>
+        <CurrencyConverter/>
         </ScrollView>
       </SafeAreaView>
     </SafeAreaProvider>
